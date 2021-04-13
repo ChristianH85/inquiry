@@ -1,16 +1,8 @@
-const axios=require("axios");
+
 const chalk =require('chalk')
 const inquirer =require('inquirer')
 
-// var requestUrl = 'https://api.github.com/users';
 
-// axios({
-//     url: requestUrl,
-//     method: 'GET',
-//   }).then(function (response) {
-//     console.log(chalk.green('Ajax Reponse \n-------------'));
-//     console.log(chalk.green(JSON.parse(response.data)))
-//   });
 let pizzaPlaces=['Via313', 'Spartan', 'Hoboken','Homeslice']
   inquirer
   .prompt([
